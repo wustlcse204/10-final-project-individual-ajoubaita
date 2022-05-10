@@ -9,8 +9,8 @@ body {
 .box {
     border: 1px dotted;
     padding: 10px;
-    height: 50px;
-    width: 150px;
+    height: 75px;
+    width: 175px;
     resize:both;
     overflow: auto;
     align-self: auto;
