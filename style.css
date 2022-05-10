@@ -1,0 +1,61 @@
+body {
+    background-color: burlywood;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header{
+    margin: auto;
+    text-align: center;
+}
+.box {
+    border: 1px dotted;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    resize:both;
+    overflow: auto;
+    align-self: auto;
+    text-decoration: teal;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    margin: auto;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.gridItem{
+    padding: 15px;
+    text-align: center;
+}
+.gridItem img {
+    width: 210px;
+    height: 175px;
+}
+
+@media only screen and (max-width:700px) {
+    input {
+        text-align: center;
+        font-size: 0.3em;
+    }
+    body{
+        text-align: center;
+        font-size: 0.5em;
+    }
+    h1{
+        text-align: center;
+        font-size: 3em;
+    }
+    ul{
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
